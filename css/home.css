@@ -1,0 +1,42 @@
+:root{
+  --text-color:#33323D;
+  --link-hover: #5FB4A2;
+  --bod-color:#FAFAFA;
+  --white:#fff;
+}
+.home-btn{
+  display: block;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--white); 
+  background: #203A4C;
+  width: 200px;
+  height: 48px;
+  transition: all .3s ease;
+}
+.home-btn span{
+  width: 48px;
+  height: 48px;
+  background: #1D3444;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url('../img/btn.svg');
+  background-position: center center;
+  transition: all .3s ease;
+  
+}
+.home-btn:hover{
+  background-color: #5FB4A2;
+}
+.home-btn:hover span{
+  background-color: #55A292;
+}
+.home-btn:hover span{
+  background-image: url('../img/btn2.svg');
+}
