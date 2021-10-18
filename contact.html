@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Public+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/flexboxgrid.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/manage.css">
+  <link rel="stylesheet" href="./css/global.css">
+</head>
+<body>
+  <div class="wrapper">
+    <section class="hero">
+      <h2 class="hero__visiblty">minimalist</h2>
+        <header class="hero__header header">
+            <div class="header__container container">
+              <div class="header__row row between-xs middle-xs">
+                <a class="header__logo-link" href="index.html">
+                  <img class="header__logo" src="img/heard-logo.svg" alt="site-logo" width="60" height="32">
+                </a>
+                <nav class="header__nav nav">
+                  <ul class="nav__list row middle-xs">
+                    <li class="nav__item"><a class="nav__link" href="index.html">HOME</a></li>
+                    <li class="nav__item"><a class="nav__link" href="port.html">PORTFOLIO</a></li>
+                    <li class="nav__item"><a class="nav__link nav__link--active" href="contact.html">CONTACT ME</a></li>
+                  </ul>
+                </nav>
+                <button class="header__menu menu">
+                  <span class="menu__line line1"></span>
+                  <span class="menu__line line2"></span>
+                  <span class="menu__line line3"></span>
+                </button>
+              </div>
+            </div>
+        </header>
+    </section>
+    <section class="touch">
+        <div class="container">
+            <div class="touch__row row betwen-xs">
+                <div class="touch__col col-md-6 col-sm-12 col-xs-12">
+                    <h2 class="touch__title bold">Get in Touch</h2>
+                </div>
+                <div class="touch__col col-md-6 col-sm-12 col-xs-12">
+                    <p class="touch__desc">I’d love to hear about what you’re working on and how I could help. I’m currently looking for a new role and am open to a wide range of opportunities. My preference would be to find a position in a company in London. But I’m also happy to hear about opportunites that don’t fit that description. I’m a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my online profiles below and get in touch using the form.</p>
+                    <ul class="touch__list row middle-xs">
+                        <li class="touch__item">
+                            <a class="touch__link" href="#" target="_blank">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </li>
+                        <li class="touch__item">
+                            <a class="touch__link" href="#" target="_blank">
+                                <i class='bx bxl-twitter' ></i>
+                            </a>
+                        </li>
+                        <li class="touch__item">
+                            <a class="touch__link" href="#" target="_blank">
+                                <i class='bx bxl-linkedin-square' ></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-me">
+        <div class="container">
+            <div class="row middl-xs">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h2 class="contact-me__title bold">Contact Me</h2>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <form class="contact-me__form form" action="https://echo.htmlacademy.ru/" method="post">
+                        <label class="form__label" for="user-name">name</label>
+                        <input class="form__input" type="text" id="user-name" required placeholder="Jane Appleseed" name="user-name">
+                        <label class="form__label" for="user-email">Email Address</label>
+                        <input class="form__input" type="email" id="user-email" required placeholder="email@example.com" name="user-email">
+                        <label class="form__label" for="message">Message</label>
+                        <textarea class="form__textarea" name="user-message" id="message" placeholder="How can I help?"></textarea>
+                        <button class="btn form__btn" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>
+  <footer class="footer-sec" id="footer">
+    <div class="footer-sec__container container">
+      <div class="footer">
+        <a class="footer__logo" href="index.html">
+          <img class="footer__logo-img" src="./img/footer-logo.png" alt="footer-logo">
+        </a>
+        <ul class="footer__list footer-list">
+          <li class="footer-list__item">
+            <a class="footer-list__link" href="index.html">HOME</a>
+          </li>
+          <li class="footer-list__item">
+            <a class="footer-list__link" href="port.html">PORTFOLIO</a>
+          </li>
+          <li class="footer-list__item">
+            <a class="footer-list__link" href="contact.html">CONTACT ME</a>
+          </li>
+        </ul>
+        <ul class="footer__icon-list footer-icon-list">
+          <li class="footer-icon-list__item">
+            <a class="footer-icon-list__link" href="#" target="_blank">
+              <i class='bx bxl-github'></i>
+            </a>
+          </li>
+          <li class="footer-icon-list__item">
+            <a class="footer-icon-list__link" href="#" target="_blank">
+              <i class='bx bxl-twitter' ></i>
+            </a>
+          </li>
+          <li class="footer-icon-list__item">
+            <a class="footer-icon-list__link" href="#" target="_blank">
+              <i class='bx bxl-linkedin-square'></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+</html>
