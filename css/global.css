@@ -114,7 +114,7 @@ p{
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #33323d;
+  color: var(--text-color);
   transition: color 0.4s ease;
 }
 .nav__item:hover .nav__link{
@@ -145,7 +145,7 @@ p{
   width: 24px;
   height: 1px;
   display: block;
-  background: #33323d;
+  background: var(--text-color);
   transition: transform 0.4s ease;
 }
 .menu__line:not(:last-child){
@@ -163,7 +163,7 @@ p{
 @media screen and (max-width:768px){
   .header__nav{
     position:absolute;
-    background: #33323d;
+    background: var(--text-color);
     overflow: hidden;
     height: 0;
     right: 20px;
@@ -181,10 +181,10 @@ p{
   }
   .nav__item:not(:last-child){
     margin: 0;
-    margin-bottom: 32px;
+    margin-bottom: 15px;
   }
   .nav__link{
-    color: #fff;
+    color: var(--white);
   }
   .header__menu {
     display: block;
@@ -229,7 +229,7 @@ p{
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--white);
 }
 .footer-icon-list {
   padding: 0;
@@ -245,7 +245,7 @@ p{
   height: 24px;
   text-decoration: none;
   font-size: 25px;
-  color: #fff;
+  color: var(--white);
 }
 @media screen and (max-width:576px){
   .footer{
@@ -269,3 +269,4 @@ p{
     margin-bottom: 32px;
   }
 }
+
